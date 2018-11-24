@@ -13,6 +13,10 @@ let
     numpy
     six
     tensorflow
+    pycuda
+    pytorchWithCuda
+    tensorflowWithCuda
+    TheanoWithCuda
     
   ]; 
   python-with-packages = nixpkgs.python36Full.withPackages python-packages;
